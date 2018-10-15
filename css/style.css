@@ -1,0 +1,23 @@
+/*
+  Theme Name: SKH Theme
+  Author: Ludwing Laguna
+  Version: 1.0
+*/
+
+/* 3rd party packages 
+@import "normalize.css";
+@import "slick-carousel/slick/slick.css"; */
+
+/* SASS and Global'ish Stuff */
+@import "base/variables";
+@import "base/baseline";
+@import "base/utility-classes";  
+
+/* BEM Blocks */
+@import "modules/login";
+@import "modules/btn";
+@import "modules/my-notes"; 
+@import "modules/style";
+@import "modules/shame";
+@import "modules/headline";
+

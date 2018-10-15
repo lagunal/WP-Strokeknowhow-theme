@@ -1,0 +1,77 @@
+/* Customize Login Screen */
+body.login .button-primary {
+  background-color: red;
+  border-color: color($darkOrange b(+10%));
+  text-shadow: 0 -1px 1px color($darkOrange b(+15%)),1px 0 1px color($darkOrange b(+15%)),0 1px 1px color($darkOrange b(+15%)),-1px 0 1px color($darkOrange b(+15%));
+  box-shadow: 0 1px 0 color($darkOrange b(+20%));
+}
+
+body.login .button-primary:hover,
+body.login .button-primary:active,
+body.login .button-primary:focus {
+  background-color: color(red b(+7%));
+  border-color: color($darkOrange b(+15%));
+  text-shadow: 0 -1px 1px color($darkOrange b(+20%)),1px 0 1px color($darkOrange b(+20%)),0 1px 1px color($darkOrange b(+20%)),-1px 0 1px color($darkOrange b(+20%));
+  box-shadow: 0 1px 0 color($darkOrange b(+25%));
+}
+
+body.login {
+  background-color: white;
+  padding-top: 0px;
+
+}
+
+.login h1 a {
+  color: $mainBlue;
+  font-size: 30px;
+  font-weight: 200;
+  width: auto;
+  height: auto;
+  text-indent: 0;
+}
+
+/*form styles*/
+body.login div#login form#loginform {
+  width: 400px;
+  margin: 50px auto;
+  text-align: center;
+  position: relative;
+  background: white;
+  border: 0 none;
+  border-radius: 3px;
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+  padding: 20px 30px;
+  box-sizing: border-box;
+  /*width: 80%;
+  margin: 0 10%;*/
+}
+body.login div#login form#loginform p label {
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+}
+/*inputs*/
+body.login div#login form#loginform input#user_login, body.login div#login form#loginform input#user_pass {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: helvetica;
+  color: black;
+  font-size: 20px;
+}
+body.login div#login form#loginform p.submit input#wp-submit {
+  width: 100px;
+  background-color: red;
+}
+body.login div#login p#nav a {
+  font-size: 16px;
+  color: black;
+}
+body.login div#login p#backtoblog a {
+  font-size: 16px;
+  color: black;
+}
+
