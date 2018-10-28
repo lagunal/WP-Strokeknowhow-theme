@@ -7,6 +7,8 @@ include(get_template_directory() . '/includes/front/enqueue.php');
 include(get_template_directory() . '/includes/front/loginSignin.php');
 include(get_template_directory() . '/includes/theme.php');
 include(get_template_directory() . '/includes/backend/customPosts.php');
+// Register Custom Navigation Walker
+require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
 
 /* *************
 //  Hooks

@@ -152,9 +152,11 @@
                     );
                     wp_login_form( $args );
                 } else { // If logged in:
-                    wp_loginout( home_url() ); // Display "Log Out" link.
-                    echo " | ";
-                    wp_register('', ''); // Display "Site Admin" link.
+                    //wp_loginout( home_url() ); // Display "Log Out" link.
+                    //echo " | ";
+                    //wp_register('', ''); // Display "Site Admin" link.
+                    wp_redirect(esc_url(site_url('/')));
+                    exit;
                 }
             ?>
            

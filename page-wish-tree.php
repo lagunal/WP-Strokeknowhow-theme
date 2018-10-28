@@ -6,7 +6,7 @@ get_header();
 
   //if user is not logged in redirect to home page
   if (!is_user_logged_in()) {
-    wp_redirect(esc_url(site_url('/')));
+    wp_redirect(esc_url(site_url('/login')));
     exit;
   }
 

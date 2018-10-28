@@ -9,6 +9,34 @@
   </head>
 
   <body <?php body_class(); ?>>
+  
+<!--*************** custom menu ***************************-->
+  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <?php
+       /*   wp_nav_menu( array(
+            'theme_location'    => 'primary',
+            'depth'             => 2,
+            'container'         => 'div',
+            'container_class'   => 'collapse navbar-collapse',
+            'container_id'      => 'bs-example-navbar-collapse-1',
+            'menu_class'        => 'navbar-nav text-danger',
+            'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+            'walker'            => new WP_Bootstrap_Navwalker(),
+          ) );*/
+      ?>
+        <?php 
+          //  if (is_user_logged_in()) { ?>
+              <a class="button-login-home" href="<?php // echo wp_logout_url(); ?>">Log Out</a>
+            <?php 
+            //} else { ?>
+              <a class="button-login-home" href="<?php //echo wp_login_url(); ?>">Sign In</a>
+        <?php //} ?>  
+    </div>
+  </nav> -->
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -62,17 +90,17 @@
     <!-- Header with Background Image -->
     <div class="container">
       <div class="d-flex">
-          <div class="col-sm-3">
+          <!-- <div class="col-sm-3 d-none">
               <img class="w-100 h-100" src="<?php echo get_theme_file_uri('images/banner-sun.jpg'); ?>" alt="Banner">
+          </div> -->
+
+          <div class="col-12">
+              <img class="w-100 h-100" src="<?php echo get_theme_file_uri('images/banner-hands.png'); ?>" alt="Banner">
           </div>
 
-          <div class="col-sm-6">
-              <img class="w-100 h-100" src="<?php echo get_theme_file_uri('images/banner-hands.jpg'); ?>" alt="Banner">
-          </div>
-
-          <div class="col-sm-3">
+          <!-- <div class="col-sm-3 d-none">
               <img class="w-100 h-100" src="<?php echo get_theme_file_uri('images/banner-moon.jpg'); ?>" alt="Banner">
-          </div>
+          </div> -->
 
       </div>
     </div>
