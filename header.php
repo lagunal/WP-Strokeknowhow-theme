@@ -52,17 +52,17 @@
                 <a class="nav-link text-danger" href="<?php echo esc_url(site_url('/about-us')); ?>">About Us</a>
               </li>
               <li class="nav-item mx-3">
-                <a class="nav-link text-danger" href="<?php echo esc_url(site_url('/family')); ?>">Family</a>
+                <a class="nav-link text-danger" href="<?php echo esc_url(site_url('/toolkit-home')); ?>">Wish Tree</a>
               </li>
               <li class="nav-item mx-3">
-                <a class="nav-link text-danger" href="<?php echo esc_url(site_url('/safety')); ?>">Safety</a>
+                <a class="nav-link text-danger" href="<?php echo esc_url(site_url('/wish-tree')); ?>">Interactive Toolkits</a>
               </li>
-              <li class="nav-item mx-3">
+              <!-- <li class="nav-item mx-3">
                 <a class="nav-link text-danger" href="<?php echo esc_url(site_url('/home-care')); ?>">Care at Home</a>
               </li>
               <li class="nav-item mx-3">
                 <a class="nav-link text-danger" href="<?php echo esc_url(site_url('/emergency')); ?>">Emergency</a>
-              </li>
+              </li>  -->
               <li class="nav-item mx-3 dropdown">
                 <a class="nav-link text-primary dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Choose your language
@@ -90,17 +90,17 @@
     <!-- Header with Background Image -->
     <div class="container">
       <div class="d-flex">
-          <!-- <div class="col-sm-3 d-none">
+          <div class="col-sm-3">
               <img class="w-100 h-100" src="<?php echo get_theme_file_uri('images/banner-sun.jpg'); ?>" alt="Banner">
-          </div> -->
-
-          <div class="col-12">
-              <img class="w-100 h-100" src="<?php echo get_theme_file_uri('images/banner-hands.png'); ?>" alt="Banner">
           </div>
 
-          <!-- <div class="col-sm-3 d-none">
+          <div class="col-sm-6 d-block">
+              <img class="w-100 h-100" src="<?php echo get_theme_file_uri('images/banner-hands.jpg'); ?>" alt="Banner">
+          </div>
+
+          <div class="col-sm-3">
               <img class="w-100 h-100" src="<?php echo get_theme_file_uri('images/banner-moon.jpg'); ?>" alt="Banner">
-          </div> -->
+          </div>
 
       </div>
     </div>
